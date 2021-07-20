@@ -18,7 +18,7 @@
 ```
 Vamos a instalar PostgreSQL en nuestra computadora. A continuación veremos el paso a paso y algunos consejos útiles para instalar y configurar correctamente PostgreSQL en nuestro equipo. En éste caso, usaremos Windows, pero los pasosson bastante similares entre los diferentes sistemas operativos.
 ```
-* Forma tradiciona:
+* Forma tradicional:
     1. Primer paso: ir a [https://www.postgresql.org/](https://www.postgresql.org/).
     2. Seleccionar la versión de PostgreSQL que desees instalar.
     3. Next, Next... finish.
