@@ -23,21 +23,25 @@ Vamos a instalar PostgreSQL en nuestra computadora. A continuación veremos el p
     2. Seleccionar la versión de PostgreSQL que desees instalar.
     3. Next, Next... finish.
 * Forma recomendada:
-    0. Instalar docker
-    1. docker run -d --name postgres -p 5432:5432 -e POSTGRES_PASSWORD=platzi postgres:9.6.6-alpine
-    2. docker exec -it postgres psql -U postgres -d postgres
-    3. \q
+    1. Instalar docker
+    2. docker run -d --name postgres -p 5432:5432 -e POSTGRES_PASSWORD=platzi postgres:9.6.6-alpine
+    3. docker exec -it postgres psql -U postgres -d postgres
+    4. \q
 ## ✅Class#4⚡️
 ```Interacción con Postgres desde la Consola```
-   * \?: Mostrará una lista de comandos disponibles.
-   * \l: Mostrará las bases de datos creadas.
-   * \dt: Mostrará las tablas de la base de datos de posgres.
-   * \c: Se conecta a la base de datos deseada.
-   * \d: Mostrará las columnas de una tabla.
-   * \h: Mostrará una lista de comandos SQL disponibles.
-   * SELECT version();: Mostrará la versión de PostgreSQL instalada.
-   * \g: Mostrar lista de comandos que se estan ejecutando en la base de datos actual.
-   * \timing: Mostrará el tiempo que tarda cada comando en ejecutarse.
+## ✅Class#5⚡️
+```PgAdmin: Interacción con Postgres desde la Interfaz Gráfica```
+## 🚧Bash🚨
+* \?: Mostrará una lista de comandos disponibles.
+* \l: Mostrará las bases de datos creadas.
+* \dt: Mostrará las tablas de la base de datos de posgres.
+* \c: Se conecta a la base de datos deseada.
+* \d: Mostrará las columnas de una tabla.
+* \h: Mostrará una lista de comandos SQL disponibles.
+* SELECT version();: Mostrará la versión de PostgreSQL instalada.
+* \g: Mostrar lista de comandos que se estan ejecutando en la base de datos actual.
+* \timing: Mostrará el tiempo que tarda cada comando en ejecutarse.
 ## 🚧Lecturas recomendadas🚨
+* [pgAdmin - PostgreSQL Tools](https://www.pgadmin.org/)
 * [Qué es el teorema CAP y cómo elegir la base de datos para tu proyecto](https://platzi.com/blog/que-es-el-teorema-cap-y-como-elegir-la-base-de-datos-para-tu-proyecto)
 * [PostgreSQL: The world's most advanced open source database](https://www.postgresql.org/)
